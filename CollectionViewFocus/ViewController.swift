@@ -26,11 +26,11 @@ class ViewController: UIViewController,  UICollectionViewDelegate, UICollectionV
         focusGuide.preferredFocusedView = btClick
         view.addLayoutGuide(focusGuide)
         
-
-        focusGuide.topAnchor.constraintEqualToAnchor(collectionView.topAnchor).active = true
-        focusGuide.bottomAnchor.constraintEqualToAnchor(btClick.bottomAnchor).active = true
-        focusGuide.leadingAnchor.constraintEqualToAnchor(collectionView.leadingAnchor).active = true
-        focusGuide.widthAnchor.constraintEqualToAnchor(collectionView.widthAnchor).active = true
+        focusGuide.topAnchor.constraintEqualToAnchor(btClick.topAnchor).active = true
+        focusGuide.rightAnchor.constraintEqualToAnchor(collectionView.rightAnchor).active = true
+        
+        focusGuide.widthAnchor.constraintEqualToAnchor(btClick.widthAnchor, multiplier: 8).active = true
+        focusGuide.heightAnchor.constraintEqualToAnchor(btClick.heightAnchor).active = true
     }
 
     override func didReceiveMemoryWarning() {
