@@ -11,6 +11,8 @@
 		9455CEC21D3E659100AE6DB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455CEC11D3E659100AE6DB7 /* ViewController.swift */; };
 		9455CEC51D3E659100AE6DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9455CEC31D3E659100AE6DB7 /* Main.storyboard */; };
 		9455CEC71D3E659100AE6DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9455CEC61D3E659100AE6DB7 /* Assets.xcassets */; };
+		9455CECF1D3E68C800AE6DB7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455CECE1D3E68C800AE6DB7 /* CollectionViewCell.swift */; };
+		9455CED11D3E699700AE6DB7 /* GuideDisplayLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9455CED01D3E699700AE6DB7 /* GuideDisplayLayers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9455CEC41D3E659100AE6DB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9455CEC61D3E659100AE6DB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9455CEC81D3E659100AE6DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9455CECE1D3E68C800AE6DB7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9455CED01D3E699700AE6DB7 /* GuideDisplayLayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideDisplayLayers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				9455CEC31D3E659100AE6DB7 /* Main.storyboard */,
 				9455CEC61D3E659100AE6DB7 /* Assets.xcassets */,
 				9455CEC81D3E659100AE6DB7 /* Info.plist */,
+				9455CECE1D3E68C800AE6DB7 /* CollectionViewCell.swift */,
+				9455CED01D3E699700AE6DB7 /* GuideDisplayLayers.swift */,
 			);
 			path = CollectionViewFocus;
 			sourceTree = "<group>";
@@ -133,6 +139,8 @@
 			files = (
 				9455CEC21D3E659100AE6DB7 /* ViewController.swift in Sources */,
 				9455CEC01D3E659100AE6DB7 /* AppDelegate.swift in Sources */,
+				9455CECF1D3E68C800AE6DB7 /* CollectionViewCell.swift in Sources */,
+				9455CED11D3E699700AE6DB7 /* GuideDisplayLayers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
