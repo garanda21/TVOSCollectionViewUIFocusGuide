@@ -42,11 +42,11 @@ class LayoutGuideDisplayLayer: CAShapeLayer {
     init(guide:UILayoutGuide) {
         super.init()
         
-        self.path = UIBezierPath(rect: guide.layoutFrame).CGPath
-        self.strokeColor = UIColor.redColor().CGColor
+        self.path = UIBezierPath(rect: guide.layoutFrame).cgPath
+        self.strokeColor = UIColor.red.cgColor
         self.lineWidth = 0.5
         self.lineDashPattern = [2, 2, 2, 2]
-        self.fillColor = UIColor.clearColor().CGColor
+        self.fillColor = UIColor.clear.cgColor
         
         // animate the dashed line
         let anim = CABasicAnimation(keyPath: "lineDashPhase")
@@ -54,7 +54,7 @@ class LayoutGuideDisplayLayer: CAShapeLayer {
         anim.repeatCount = Float.infinity
         anim.fromValue = 0
         anim.toValue = 3
-        self.addAnimation(anim, forKey: "lineDashPhase")
+        self.add(anim, forKey: "lineDashPhase")
     }
     
     required init?(coder aDecoder: NSCoder) {
